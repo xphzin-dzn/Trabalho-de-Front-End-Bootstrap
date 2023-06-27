@@ -1,0 +1,56 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  header {
+    background-color: rgb(178, 96, 255);
+        display: flex;
+        grid-area: header;
+        flex-direction: row;
+        flex-wrap: nowrap;
+   
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+      
+  }
+  .logo {
+    width: 90px;
+    height: 90px;
+    margin-left: 5px;
+    margin-top: 6px;
+  }
+  .fundo{
+    background-color: rgb(178, 96, 255);
+  }
+  .barra{
+ background-color: rgb(10, 196, 10);
+  }
+  #Buscar {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 48px;
+    margin-top: 27px;
+    margin-left: 60px;
+    align-items: center;
+    width: 50vw;
+  }
+  #search {
+    margin-bottom: 20px;
+    border: #fff;
+    border-radius: 5px;
+    height: 20px;
+    margin-right: 1%;
+    margin-top: 20px;
+    width: 60vw;
+  }
+  .lupa {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 12px;
+  }
