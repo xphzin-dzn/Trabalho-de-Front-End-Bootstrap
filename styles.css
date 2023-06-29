@@ -1,21 +1,20 @@
 .fakeimg {
     height: 200px;
-    background: #aaa;
+    background: #ffffff;
   }
   header {
-    background-color: rgb(178, 96, 255);
-        display: flex;
-        grid-area: header;
-        flex-direction: row;
-        flex-wrap: nowrap;
-   
-        color: #fff;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-      
+    background-color: #5C015E;
+    display: flex;
+    grid-area: header;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
   }
+  
   .logo {
     width: 90px;
     height: 90px;
@@ -26,7 +25,7 @@
     background-color: rgb(178, 96, 255);
   }
   .barra{
- background-color: rgb(10, 196, 10);
+ background-color: #A0FB00
   }
   #Buscar {
     display: flex;
@@ -54,3 +53,17 @@
     border-radius: 5px;
     margin-right: 12px;
   }
+  img{
+  width: 300px;
+  height: 300px;
+  }
+  .promo{
+    height: 200px;
+    width: 736px;
+  }
+  h1, h5, p{
+    font-family:sans-serif
+  }
+p{
+  margin-top: 25px;
+}
